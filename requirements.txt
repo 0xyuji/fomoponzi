@@ -1,0 +1,4 @@
+requests>=2.32
+python-dotenv>=1.0
+duckdb>=1.1
+pandas>=2.0
