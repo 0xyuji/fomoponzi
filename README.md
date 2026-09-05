@@ -47,11 +47,30 @@ distribution holds in either cut. Realized only is still 45% winners to 55% lose
 
 A realized only view is in `results/realized_buckets.csv` and is the more defensible cut.
 
+## Chart
+
+![PnL distribution](charts/chart_net_dark.png)
+
+`make_chart.py` renders the donut as SVG straight from the DuckDB tables, so the numbers
+and the arc angles cannot drift apart.
+
+    python make_chart.py --bg -o chart.svg              # net PnL
+    python make_chart.py --bg --realized -o chart.svg   # realized only
+
+Leave off `--bg` for a transparent background if you want to composite it onto artwork.
+Both a transparent and a dark version of each chart are in `charts/`.
+
+Worth knowing before you redraw this by hand or with an image model: the green side is only
+16.5% of the ring, about 59 degrees. The single segment "-$500 to -$100" is 148 degrees on
+its own, larger than every green segment combined. Three segments are under 2 degrees and
+render as hairlines. Getting those proportions wrong flips the story the picture tells.
+
 ## How it works
 
     fetch_signatures.py     getSignaturesForAddress, paginated, 30 day cutoff
     fetch_transactions.py   Enhanced Transactions API, 100 signatures per call
     prices.py               hourly SOL/USD, plus current token prices
+    make_chart.py           donut chart as SVG, exact geometry from the DB
     compute_pnl.py          pool filter, cost basis, realized + unrealized, buckets
     compute_realized.py     realized only, no price dependency
 
@@ -120,5 +139,6 @@ memecoins, which is also true off this app.
     results/realized_buckets.csv   bucket counts, realized only
     results/trader_pnl.csv         per trader realized, unrealized, net
     results/trader_realized.csv    per trader closed trade PnL
+    charts/                        donut charts, SVG and PNG, dark and transparent
 
 Raw caches and the DuckDB file are not committed. They come to about 640MB.

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" font-family="Inter,Helvetica,Arial,sans-serif">
+<defs><filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1536" height="1024" fill="#05070d"/>
+<text x="90" y="96" fill="#fff" font-size="62" font-weight="800" filter="url(#g)">fomo</text>
+<text x="92" y="148" fill="#dbeafe" font-size="30" font-weight="700" letter-spacing="2.5">REALIZED PNL, CLOSED TRADES ONLY</text>
+<path d="M700.00,295.00 A250,250 0 0 1 702.40,295.01 L701.34,405.01 A140,140 0 0 0 700.00,405.00 Z" fill="#0aa63c" stroke="#05070d" stroke-width="2"/>
+<path d="M701.12,295.00 A250,250 0 0 1 703.52,295.02 L701.97,405.01 A140,140 0 0 0 700.63,405.00 Z" fill="#17c44e" stroke="#05070d" stroke-width="2"/>
+<path d="M704.70,295.04 A250,250 0 0 1 745.41,299.16 L725.43,407.33 A140,140 0 0 0 702.63,405.02 Z" fill="#3ad964" stroke="#05070d" stroke-width="2"/>
+<path d="M748.41,299.73 A250,250 0 0 1 800.15,315.94 L756.08,416.72 A140,140 0 0 0 727.11,407.65 Z" fill="#6ee88a" stroke="#05070d" stroke-width="2"/>
+<path d="M802.94,317.18 A250,250 0 0 1 941.88,481.81 L835.45,509.61 A140,140 0 0 0 757.65,417.42 Z" fill="#a6f2b6" stroke="#05070d" stroke-width="2"/>
+<path d="M942.64,484.77 A250,250 0 0 1 771.67,784.51 L740.13,679.12 A140,140 0 0 0 835.88,511.27 Z" fill="#d6fadd" stroke="#05070d" stroke-width="2"/>
+<path d="M768.74,785.36 A250,250 0 0 1 451.91,514.16 L561.07,527.73 A140,140 0 0 0 738.49,679.60 Z" fill="#f6d8d8" stroke="#05070d" stroke-width="2"/>
+<path d="M452.31,511.13 A250,250 0 0 1 603.14,314.53 L645.76,415.93 A140,140 0 0 0 561.29,526.03 Z" fill="#f3b4b4" stroke="#05070d" stroke-width="2"/>
+<path d="M605.96,313.36 A250,250 0 0 1 656.27,298.85 L675.51,407.16 A140,140 0 0 0 647.34,415.28 Z" fill="#ec8080" stroke="#05070d" stroke-width="2"/>
+<path d="M659.28,298.34 A250,250 0 0 1 694.64,295.06 L697.00,405.03 A140,140 0 0 0 677.20,406.87 Z" fill="#e05252" stroke="#05070d" stroke-width="2"/>
+<path d="M696.17,295.03 A250,250 0 0 1 698.97,295.00 L699.42,405.00 A140,140 0 0 0 697.85,405.02 Z" fill="#cf2b2b" stroke="#05070d" stroke-width="2"/>
+<path d="M698.97,295.00 A250,250 0 0 1 701.37,295.00 L700.77,405.00 A140,140 0 0 0 699.42,405.00 Z" fill="#a11414" stroke="#05070d" stroke-width="2"/>
+<polyline points="699.6,350.0 430,350.0 400,350.0" fill="none" stroke="#a11414" stroke-width="1.6" opacity="0.85"/>
+<circle cx="699.6" cy="350.0" r="4.5" fill="#a11414"/>
+<text x="386" y="344.0" text-anchor="end" fill="#fff" font-size="27" font-weight="800">11<tspan fill="#ff5a5a" dx="14">0.07%</tspan></text>
+<text x="386" y="374.0" text-anchor="end" fill="#9fd0ff" font-size="23" font-weight="600">&lt; -$10K</text>
+<polyline points="698.1,350.0 430,414.0 400,414.0" fill="none" stroke="#cf2b2b" stroke-width="1.6" opacity="0.85"/>
+<circle cx="698.1" cy="350.0" r="4.5" fill="#cf2b2b"/>
+<text x="386" y="408.0" text-anchor="end" fill="#fff" font-size="27" font-weight="800">30<tspan fill="#ff5a5a" dx="14">0.18%</tspan></text>
+<text x="386" y="438.0" text-anchor="end" fill="#9fd0ff" font-size="23" font-weight="600">-$10K to -$5K</text>
+<polyline points="682.0,350.8 430,478.0 400,478.0" fill="none" stroke="#e05252" stroke-width="1.6" opacity="0.85"/>
+<circle cx="682.0" cy="350.8" r="4.5" fill="#e05252"/>
+<text x="386" y="472.0" text-anchor="end" fill="#fff" font-size="27" font-weight="800">413<tspan fill="#ff5a5a" dx="14">2.46%</tspan></text>
+<text x="386" y="502.0" text-anchor="end" fill="#9fd0ff" font-size="23" font-weight="600">-$5K to -$1K</text>
+<polyline points="646.0,357.6 430,542.0 400,542.0" fill="none" stroke="#ec8080" stroke-width="1.6" opacity="0.85"/>
+<circle cx="646.0" cy="357.6" r="4.5" fill="#ec8080"/>
+<text x="386" y="536.0" text-anchor="end" fill="#fff" font-size="27" font-weight="800">594<tspan fill="#ff5a5a" dx="14">3.53%</tspan></text>
+<text x="386" y="566.0" text-anchor="end" fill="#9fd0ff" font-size="23" font-weight="600">-$1K to -$500</text>
+<polyline points="545.3,426.3 430,606.0 400,606.0" fill="none" stroke="#f3b4b4" stroke-width="1.6" opacity="0.85"/>
+<circle cx="545.3" cy="426.3" r="4.5" fill="#f3b4b4"/>
+<text x="386" y="600.0" text-anchor="end" fill="#fff" font-size="27" font-weight="800">2,807<tspan fill="#ff5a5a" dx="14">16.70%</tspan></text>
+<text x="386" y="630.0" text-anchor="end" fill="#9fd0ff" font-size="23" font-weight="600">-$500 to -$100</text>
+<polyline points="573.2,693.1 430,693.1 400,693.1" fill="none" stroke="#f6d8d8" stroke-width="1.6" opacity="0.85"/>
+<circle cx="573.2" cy="693.1" r="4.5" fill="#f6d8d8"/>
+<text x="386" y="687.1" text-anchor="end" fill="#fff" font-size="27" font-weight="800">5,311<tspan fill="#ff5a5a" dx="14">31.60%</tspan></text>
+<text x="386" y="717.1" text-anchor="end" fill="#9fd0ff" font-size="23" font-weight="600">-$100 to $0</text>
+<polyline points="700.4,350.0 1000,350.0 1030,350.0" fill="none" stroke="#0aa63c" stroke-width="1.6" opacity="0.85"/>
+<circle cx="700.4" cy="350.0" r="4.5" fill="#0aa63c"/>
+<text x="1044" y="344.0" text-anchor="start" fill="#fff" font-size="27" font-weight="800">12<tspan fill="#3ad964" dx="14">0.07%</tspan></text>
+<text x="1044" y="374.0" text-anchor="start" fill="#9fd0ff" font-size="23" font-weight="600">$10K+</text>
+<polyline points="701.7,350.0 1000,414.0 1030,414.0" fill="none" stroke="#17c44e" stroke-width="1.6" opacity="0.85"/>
+<circle cx="701.7" cy="350.0" r="4.5" fill="#17c44e"/>
+<text x="1044" y="408.0" text-anchor="start" fill="#fff" font-size="27" font-weight="800">22<tspan fill="#3ad964" dx="14">0.13%</tspan></text>
+<text x="1044" y="438.0" text-anchor="start" fill="#9fd0ff" font-size="23" font-weight="600">$5K to $10K</text>
+<polyline points="719.6,351.0 1000,478.0 1030,478.0" fill="none" stroke="#3ad964" stroke-width="1.6" opacity="0.85"/>
+<circle cx="719.6" cy="351.0" r="4.5" fill="#3ad964"/>
+<text x="1044" y="472.0" text-anchor="start" fill="#fff" font-size="27" font-weight="800">471<tspan fill="#3ad964" dx="14">2.80%</tspan></text>
+<text x="1044" y="502.0" text-anchor="start" fill="#9fd0ff" font-size="23" font-weight="600">$1K to $5K</text>
+<polyline points="758.3,358.9 1000,542.0 1030,542.0" fill="none" stroke="#6ee88a" stroke-width="1.6" opacity="0.85"/>
+<circle cx="758.3" cy="358.9" r="4.5" fill="#6ee88a"/>
+<text x="1044" y="536.0" text-anchor="start" fill="#fff" font-size="27" font-weight="800">614<tspan fill="#3ad964" dx="14">3.65%</tspan></text>
+<text x="1044" y="566.0" text-anchor="start" fill="#9fd0ff" font-size="23" font-weight="600">$500 to $1K</text>
+<polyline points="849.0,419.2 1000,606.0 1030,606.0" fill="none" stroke="#a6f2b6" stroke-width="1.6" opacity="0.85"/>
+<circle cx="849.0" cy="419.2" r="4.5" fill="#a6f2b6"/>
+<text x="1044" y="600.0" text-anchor="start" fill="#fff" font-size="27" font-weight="800">2,416<tspan fill="#3ad964" dx="14">14.37%</tspan></text>
+<text x="1044" y="630.0" text-anchor="start" fill="#9fd0ff" font-size="23" font-weight="600">$100 to $500</text>
+<polyline points="869.4,641.6 1000,670.0 1030,670.0" fill="none" stroke="#d6fadd" stroke-width="1.6" opacity="0.85"/>
+<circle cx="869.4" cy="641.6" r="4.5" fill="#d6fadd"/>
+<text x="1044" y="664.0" text-anchor="start" fill="#fff" font-size="27" font-weight="800">4,108<tspan fill="#3ad964" dx="14">24.44%</tspan></text>
+<text x="1044" y="694.0" text-anchor="start" fill="#9fd0ff" font-size="23" font-weight="600">$0 to $100</text>
+<circle cx="700" cy="545" r="134" fill="#05070d" opacity="0.92"/>
+<text x="700" y="551" text-anchor="middle" fill="#fff" font-size="62" font-weight="800" filter="url(#g)">16,809</text>
+<text x="700" y="589" text-anchor="middle" fill="#cbd5e1" font-size="20" font-weight="600" letter-spacing="4">TOTAL TRADERS</text>
+</svg>
